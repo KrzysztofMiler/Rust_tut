@@ -17,14 +17,14 @@ loop{
     io::stdin().read_line(&mut zgad)
         .expect("nic nie wpisano");
 
-    let zgad:u32=zgad.trim().parse()
-        .expect("liczba pls");
+    let zgad:u32=zgad.trim().parse()   
+        .expect("liczba pls");   
 
     println!("Zgadłeś {}",zgad );
 
     match zgad.cmp(&sec){
-        Ordering::Less=> println!("za nisko", ),
-        Ordering::Greater=> println!("za wysoko", ),
+        Ordering::Less=> println!("za nisko"),
+        Ordering::Greater=> println!("za wysoko"),
         Ordering::Equal=> {
             println!("gratz", );
             break;
