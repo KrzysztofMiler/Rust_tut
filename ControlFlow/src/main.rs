@@ -11,4 +11,11 @@ fn main() {
         println!("div 1", );
     }
     
+    let war = true;
+    let num = if war{
+        5
+    }else{
+        6
+    };
+    println!("wychdozi {}", num);
 }
