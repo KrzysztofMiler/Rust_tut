@@ -24,6 +24,12 @@ takes_ownership(g);//wchodzi do funkcji
 let x = 5; // powstaej x
 make_copy(x);// wchodzi do fn. ale to kopja i32 wienc moszna
 //używać x potem
+
+
+
+
+
+
 }
 
 fn takes_ownership(jakis_string: String){
@@ -31,4 +37,7 @@ fn takes_ownership(jakis_string: String){
 }
 fn make_copy(int:i32){
     println!("{}",int );
+
+
+
 }
