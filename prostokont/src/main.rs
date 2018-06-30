@@ -1,13 +1,13 @@
 fn main() {
-    let szer = 30;
-    let wys = 50;
+    let  prost = (50,30);
+    
 
     println!(
         "prostokont ma pole {} pikseli kwadrat",
-        pole(szer, wys)
+        pole(prost)
     );
 }
 
-fn pole(szer: u32, wys: u32) -> u32 {
-    szer * wys
+fn pole(wymiar: (u32,u32)) -> u32 {
+    wymiar.0*wymiar.1
 }
