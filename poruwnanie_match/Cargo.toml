@@ -1,0 +1,6 @@
+[package]
+name = "poruwnanie_match"
+version = "0.1.0"
+authors = ["Krzychu <krzy.miler@gmail.com>"]
+
+[dependencies]
