@@ -30,9 +30,12 @@ fn main() {
         Text(String),
     }
 
-    let row = vec![
+    let mut row = vec![
         SpreadsheetCell::Int(3),
         SpreadsheetCell::Text(String::from("blue")),
         SpreadsheetCell::Float(10.12),
     ];
+
+    row.push(SpreadsheetCell::Int(5));
+    row.push(SpreadsheetCell::Text(String::from("gib")));//itd.
 }
