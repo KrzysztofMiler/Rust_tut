@@ -1,8 +1,8 @@
 #[cfg(test)]
 
-mod network;
+pub mod network;
 
-mod client;//to oznacza że rust szuka gdzie indziej to było zdeklarowane
+pub mod client;//to oznacza że rust szuka gdzie indziej to było zdeklarowane
 //czyli szuka client.rs
     
 
