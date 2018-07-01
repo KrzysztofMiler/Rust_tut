@@ -9,6 +9,6 @@ pub mod client;//to oznacza że rust szuka gdzie indziej to było zdeklarowane
 mod tests {
     #[test]
     fn it_works() {
-        assert_eq!(2 + 2, 4);
+        super::client::connect();//albo można zostawić tylko :: i wtedy rozpoczynamy od roota
     }
 }
