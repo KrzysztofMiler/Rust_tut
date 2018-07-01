@@ -5,10 +5,12 @@ pub mod network;
 pub mod client;//to oznacza że rust szuka gdzie indziej to było zdeklarowane
 //czyli szuka client.rs
     
+#[cfg(test)]
+mod tests {   
+    use  super::client;
 
-mod tests {
-    #[test]
+     #[test]
     fn it_works() {
-        super::client::connect();//albo można zostawić tylko :: i wtedy rozpoczynamy od roota
+       client::connect();//albo można zostawić tylko :: i wtedy rozpoczynamy od roota
     }
 }

@@ -1,0 +1,1 @@
+c:\Users\Nexus\Documents\Rust_tut\Rust_tut\komunikator\target\debug\komunikator-37c18f9ae629aa2b.pdb: c:\Users\Nexus\Documents\Rust_tut\Rust_tut\komunikator\src\client.rs c:\Users\Nexus\Documents\Rust_tut\Rust_tut\komunikator\src\lib.rs c:\Users\Nexus\Documents\Rust_tut\Rust_tut\komunikator\src\main.rs
