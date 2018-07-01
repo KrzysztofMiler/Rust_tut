@@ -10,10 +10,9 @@ mod network {
     
 }
 
-mod client {
-    fn connect(){
-    }
-}
+mod client;//to oznacza że rust szuka gdzie indziej to było zdeklarowane
+//czyli szuka client.rs
+    
 
 mod tests {
     #[test]
