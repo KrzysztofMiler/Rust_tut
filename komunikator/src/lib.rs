@@ -1,14 +1,6 @@
 #[cfg(test)]
 
-mod network {
-    fn connect(){ 
-    } 
-    mod server{
-        fn connect(){                
-        }
-     }      
-    
-}
+mod network;
 
 mod client;//to oznacza że rust szuka gdzie indziej to było zdeklarowane
 //czyli szuka client.rs
